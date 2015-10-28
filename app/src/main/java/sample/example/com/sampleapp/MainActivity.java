@@ -10,10 +10,7 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity implements View.OnClickListener{
-
-    //hai change from shambhi system1
-
-
+//hai from shambhi
     Button button1;
 int duration=2000;
     @Override
