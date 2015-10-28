@@ -18,10 +18,10 @@ int duration=2000;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button1=(Button)findViewById(R.id.button1);
+        button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(this);
-        Toast.makeText(this,"Hai from second app",Toast.LENGTH_SHORT).show();
     }
+
 
 
     @Override
