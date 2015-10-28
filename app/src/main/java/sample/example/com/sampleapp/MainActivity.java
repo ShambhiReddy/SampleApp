@@ -20,13 +20,13 @@ int duration=2000;
 
         button1=(Button)findViewById(R.id.button1);
         button1.setOnClickListener(this);
-        Toast.makeText(this,"Hai from second app",Toast.LENGTH_SHORT).show();
+
     }
 
 
     @Override
     public void onClick(View v)
     {
-
+       Toast.makeText(this,"Hai from third app",Toast.LENGTH_SHORT).show();
     }
 }
