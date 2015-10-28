@@ -27,6 +27,6 @@ int duration=2000;
     @Override
     public void onClick(View v)
     {
-      //  Toast.makeText(this,"Hai from second app",Toast.LENGTH_SHORT).show();
+       Toast.makeText(this,"Hai from third app",Toast.LENGTH_SHORT).show();
     }
 }
